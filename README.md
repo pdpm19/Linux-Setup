@@ -19,7 +19,10 @@ sh i3conf.sh
 ```
 
 ## JupyterLab
-Open `Jupyter.md` file for basic configuration
+Open `JupyterLab.md` file for basic configuration
+
+## JupyterHub
+Open `JupyterHub.md` file for basic configuration
 
 ## DIsclaimer
 - **Use this scripts at your own risk**;
