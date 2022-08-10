@@ -63,8 +63,8 @@ inoremap ç <Esc>
 " > ~/.vimrc
 
 # Adds git user and email (change to your email and username)
-git config --global user.email pdp.moreira@gmail.com
-git config --global user.name pdpm19
+git config --global user.email email@git
+git config --global user.name username
 
 
 # Finishing tasks
