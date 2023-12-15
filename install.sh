@@ -31,7 +31,7 @@ sudo apt-get -f install
 sudo dpkg -i teams.deb
 
 
-# Zoom for Ubunto 16.04+
+# Zoom for Ubuntu 16.04+
 wget -O zoom.deb https://zoom.us/client/latest/zoom_amd64.deb
 sudo dpkg -i zoom.deb
 sudo apt-get -f install
@@ -45,8 +45,14 @@ sudo apt-get install apt-transport-https -y
 sudo apt-get update
 sudo apt-get install code -y
 
+# RustDesk
+wget -O rustDesk.deb https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb
+sudo dpkg -i rustDesk.deb
+sudo apt-get -f install
+sudo dpkg -i rustDesk.deb
+
 # Remove downloaded files
-rm discord.deb zoom.deb
+rm discord.deb zoom.deb rustDesk.deb
 
 # Vim Config
 echo "syntax enable
